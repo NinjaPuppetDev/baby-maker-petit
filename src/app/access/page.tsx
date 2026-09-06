@@ -1,10 +1,10 @@
 'use client';
 
-import { FormEvent, useState } from 'react';
+import { FormEvent, Suspense, useState } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { BRAND } from '@/config/brand';
 
-export default function AccessPage() {
+function AccessPageForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const [password, setPassword] = useState('');
@@ -82,5 +82,13 @@ export default function AccessPage() {
         </div>
       </div>
     </main>
+  );
+}
+
+export default function AccessPage() {
+  return (
+    <Suspense>
+      <AccessPageForm />
+    </Suspense>
   );
 }
