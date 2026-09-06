@@ -286,7 +286,7 @@ export default function HomePage() {
         </Container>
       </Section>
 
-      {/* 05. THE ARTIST — MELISSA ROSALES */}
+      {/* 05. THE ARTIST — MELISSA RENDON */}
       <Section variant="primary" spacing="lg">
         <Container size="xl">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
@@ -327,7 +327,7 @@ export default function HomePage() {
               >
                 <Image
                   src="/assets/baby1.jpg"
-                  alt="Julien holding the Baby Maker Petit Certificate of Authenticity signed by Mel Rosales"
+                  alt="Julien holding the Baby Maker Petit Certificate of Authenticity signed by Melissa Rendon"
                   fill
                   sizes="(max-width: 1024px) 100vw, 40vw"
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -345,7 +345,7 @@ export default function HomePage() {
                     Certificate of Authenticity · Julien
                   </p>
                   <p className="text-xs text-white/80">
-                    Signed & dated by Melissa Rosales (23/07/2021)
+                    Signed & dated by Melissa Rendon (23/07/2021)
                   </p>
                 </div>
               </div>

@@ -124,7 +124,7 @@ export default function AtelierPage() {
                   </p>
                 </div>
                 <div className="pt-6 border-t border-[#2E2926] text-xs font-mono text-[#E29578]">
-                  Melissa Rosales · Studio Practice 2024–Future
+                  Melissa Rendon · Studio Practice 2024–Future
                 </div>
               </div>
             </div>

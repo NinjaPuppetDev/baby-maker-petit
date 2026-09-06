@@ -1,6 +1,7 @@
 'use client';
 
 import { FormEvent, Suspense, useState } from 'react';
+import Image from 'next/image';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { BRAND } from '@/config/brand';
 
@@ -30,8 +31,7 @@ function AccessPageForm() {
 
       const next = searchParams.get('next');
       const destination = next?.startsWith('/') && !next.startsWith('//') ? next : '/';
-      router.replace(destination);
-      router.refresh();
+      window.location.replace(destination);
     } catch {
       setError('Unable to verify the password. Please try again.');
     } finally {
@@ -46,6 +46,14 @@ function AccessPageForm() {
           <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-[#A45537]">
             Private Gallery
           </p>
+          <Image
+            src="/assets/logo-circle.png"
+            alt={BRAND.name}
+            width={96}
+            height={96}
+            priority
+            className="mx-auto mt-5 rounded-full border border-[#E29578]/30 bg-[#F9EBE5]"
+          />
           <h1 className="mt-4 font-serif text-5xl font-light tracking-tight text-[#201D1B] sm:text-6xl">
             {BRAND.name}
           </h1>

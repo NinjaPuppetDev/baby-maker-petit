@@ -10,7 +10,7 @@ export const BRAND = {
   contactEmail: "atelier@babymakerpetit.com",
   instagramHandle: "@babymakerpetit",
   instagramUrl: "https://instagram.com/babymakerpetit",
-  location: "Artisan Atelier, Chile",
+  location: "Artisan Atelier, Colombia",
   certificateTitle: "Certificate of Authenticity",
 } as const;
 
