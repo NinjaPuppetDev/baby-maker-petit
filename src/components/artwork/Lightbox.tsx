@@ -104,7 +104,6 @@ export function Lightbox({
             alt={current.alt || current.title || 'Artwork detail view'}
             fill
             className="object-contain transition-opacity duration-300"
-            priority
             sizes="100vw"
           />
         </div>

@@ -155,7 +155,7 @@ export default function HomePage() {
               <CreationCard
                 key={creation.id}
                 creation={creation}
-                priority={index < 2}
+                priority={false}
                 aspectRatio={index === 0 ? 'portrait' : 'portrait'}
               />
             ))}

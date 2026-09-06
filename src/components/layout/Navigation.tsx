@@ -69,6 +69,7 @@ export function Navigation() {
               src="/assets/logo-circle.png"
               alt={BRAND.name}
               fill
+              sizes="36px"
               className="object-cover"
               priority
             />

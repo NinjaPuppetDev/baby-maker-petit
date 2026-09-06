@@ -46,9 +46,8 @@ export default function ArtistPage() {
               >
                 <Image
                   src="/assets/baby1.jpg"
-                  alt="Baby Maker Petit creation with Certificate of Authenticity signed by Mel Rendon"
+                  alt="Baby Maker Petit creation with Certificate of Authenticity signed by Melissa Rendon"
                   fill
-                  priority
                   sizes="(max-width: 1024px) 100vw, 40vw"
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
                 />

@@ -81,7 +81,7 @@ export default function WorkPage() {
               <CreationCard
                 key={creation.id}
                 creation={creation}
-                priority={idx < 3}
+                priority={idx === 0}
                 aspectRatio="portrait"
               />
             ))}
