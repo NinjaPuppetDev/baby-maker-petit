@@ -46,7 +46,7 @@ export default function ArtistPage() {
               >
                 <Image
                   src="/assets/baby1.jpg"
-                  alt="Baby Maker Petit creation with Certificate of Authenticity signed by Mel Rosales"
+                  alt="Baby Maker Petit creation with Certificate of Authenticity signed by Mel Rendon"
                   fill
                   priority
                   sizes="(max-width: 1024px) 100vw, 40vw"
@@ -135,7 +135,7 @@ export default function ArtistPage() {
                 </div>
                 <div className="flex items-center gap-2">
                   <ShieldCheck className="w-4 h-4 text-[#E29578]" />
-                  <span>Physical signature of artist Melissa Rosales.</span>
+                  <span>Physical signature of artist Melissa Rendon.</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <ShieldCheck className="w-4 h-4 text-[#E29578]" />

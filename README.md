@@ -1,6 +1,6 @@
 # Baby Maker Petit — Stage 1: Art Direction & Digital Gallery
 
-Baby Maker Petit is the artistic practice of Melissa Rosales, a professional artist specializing in hyperrealistic baby sculpture and transitional platinum silicone art.
+Baby Maker Petit is the artistic practice of Melissa Rendon, a professional artist specializing in hyperrealistic baby sculpture and transitional platinum silicone art.
 
 ## Visual Identity & Design System
 - **Positioning**: Hyperrealism × Craft × Fantasy × Emotion × Technology

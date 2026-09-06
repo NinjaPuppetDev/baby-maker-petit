@@ -73,7 +73,7 @@ export function CertificateModal({
           <div className="relative w-full max-w-2xl aspect-[4/3] rounded-xl overflow-hidden shadow-lg border border-[#D8CEC4]">
             <Image
               src="/assets/baby1_certificate.jpg"
-              alt="Baby Maker Petit Certificate of Authenticity signed by Mel Rosales"
+              alt="Baby Maker Petit Certificate of Authenticity signed by Mel Rendon"
               fill
               className="object-contain bg-white"
               priority
@@ -85,7 +85,7 @@ export function CertificateModal({
               Document Transcript & Provenance Record
             </p>
             <p className="font-serif text-sm italic text-[#201D1B] leading-relaxed">
-              “This document certifies that your reborn doll is painted by the artist Mel Rosales from Baby Maker Petit.”
+              “This document certifies that your reborn doll is painted by the artist Mel Rendon from Baby Maker Petit.”
             </p>
             <div className="flex items-center justify-center gap-4 text-xs text-[#6A635D] pt-1">
               <span>Date: {certificateDate}</span>

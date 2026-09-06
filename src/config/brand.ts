@@ -3,7 +3,7 @@ export const BRAND = {
   shortName: "Baby Maker",
   tagline: "Hyperrealistic Baby Sculpture & Atelier",
   artist: "Melissa",
-  fullArtistName: "Melissa Rosales",
+  fullArtistName: "Melissa Rendon",
   yearEstablished: 2020,
   positioning: "Hyperrealism × Craft × Fantasy × Emotion × Technology",
   philosophy: "Treat the dolls as artworks. Treat the website as a gallery. Treat the interface as atmosphere.",

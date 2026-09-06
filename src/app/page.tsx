@@ -69,114 +69,42 @@ export default function HomePage() {
   return (
     <div className="flex flex-col w-full">
       {/* 01. HERO / OPENING */}
-      <section className="relative min-h-[92vh] flex items-center justify-center pt-24 pb-16 overflow-hidden bg-[#FAF7F2]">
-        {/* Subtle Ambient Background Grain & Light */}
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_35%,rgba(249,235,229,0.7)_0%,rgba(250,247,242,0)_70%)] pointer-events-none" />
+      <section className="relative min-h-[100svh] overflow-hidden bg-[#201D1B]">
+        <Image
+          src="/assets/hero-full-bleed-baby.png"
+          alt="Hyperrealistic baby sculpture resting in soft pink knitwear"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover object-[50%_48%] opacity-75 sm:object-[50%_50%]"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#201D1B]/20 via-[#201D1B]/25 to-[#201D1B]/50" />
 
-        <Container size="xl" className="relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
-            {/* Hero Editorial Typography (6 cols) */}
-            <div className="lg:col-span-6 space-y-6 lg:space-y-8 order-2 lg:order-1">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#F9EBE5] text-[#A45537] border border-[#E29578]/30 text-xs font-sans font-medium tracking-widest uppercase">
-                <span className="w-1.5 h-1.5 rounded-full bg-[#E29578] animate-pulse" />
-                <span>{BRAND.tagline}</span>
-              </div>
+        <Container size="xl" className="relative z-10 flex min-h-[100svh] items-center justify-center py-28 sm:py-32">
+          <div className="max-w-3xl text-center">
+            <Text variant="display-l" as="h1" className="text-white drop-shadow-[0_2px_18px_rgba(32,29,27,0.25)]">
+              {language === 'en' ? (
+                <>
+                  Where lifelike sculpture meets <span className="italic text-[#F9EBE5]">living presence</span>.
+                </>
+              ) : (
+                <>
+                  Donde la escultura hiperrealista encuentra <span className="italic text-[#F9EBE5]">presencia viva</span>.
+                </>
+              )}
+            </Text>
 
-              <Text variant="display-l" className="text-[#201D1B] tracking-tight">
-                {language === 'en' ? (
-                  <>
-                    Where lifelike sculpture meets <span className="italic font-serif text-[#A45537]">living presence</span>.
-                  </>
-                ) : (
-                  <>
-                    Donde la escultura hiperrealista encuentra <span className="italic font-serif text-[#A45537]">presencia viva</span>.
-                  </>
-                )}
-              </Text>
+            <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-white/85 sm:text-lg">
+              {t.hero.manifesto}
+            </p>
 
-              <p className="text-base sm:text-lg text-[#6A635D] font-sans leading-relaxed max-w-xl">
-                {t.hero.manifesto}
-              </p>
-
-              {/* Action Buttons */}
-              <div className="pt-2 flex flex-wrap items-center gap-4">
-                <Button href="/work" variant="primary" size="lg" icon={<ArrowRight className="w-4 h-4 text-[#E29578]" />}>
-                  {t.hero.viewCreations}
-                </Button>
-                <Button href="/atelier" variant="secondary" size="lg">
-                  {t.hero.enterAtelier}
-                </Button>
-              </div>
-
-              {/* Quiet Micro-provenance note */}
-              <div className="pt-4 border-t border-[#E8E0D5] flex items-center gap-4 text-xs text-[#8E847A]">
-                <button
-                  onClick={() => setCertificateOpen(true)}
-                  className="flex items-center gap-1.5 hover:text-[#A45537] transition-colors cursor-pointer"
-                >
-                  <ShieldCheck className="w-4 h-4 text-[#E29578]" />
-                  <span>{t.home.provenanceTitle}</span>
-                </button>
-                <span>·</span>
-                <span>{BRAND.positioning}</span>
-              </div>
-            </div>
-
-            {/* Hero Photographic Stage (6 cols) */}
-            <div className="lg:col-span-6 order-1 lg:order-2">
-              <div className="relative mx-auto max-w-md lg:max-w-none">
-                {/* Main Hero Artwork Frame */}
-                <div
-                  onClick={() => openLightboxAt(0)}
-                  className="group relative aspect-[4/5] sm:aspect-[1/1] lg:aspect-[4/5] rounded-3xl overflow-hidden shadow-[0_16px_50px_rgba(32,29,27,0.07)] border border-[#E8E0D5] bg-[#F3ECE4] cursor-pointer"
-                >
-                  <Image
-                    src="/assets/baby3.jpg"
-                    alt="Aurelia — Sleeping newborn sculpture with micro-rooted eyelashes"
-                    fill
-                    priority
-                    sizes="(max-width: 1024px) 100vw, 50vw"
-                    className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-
-                  {/* Floating Artwork Label */}
-                  <div className="absolute bottom-5 left-5 right-5 p-4 rounded-2xl bg-white/85 backdrop-blur-md border border-white/60 flex items-center justify-between text-[#201D1B] shadow-sm">
-                    <div>
-                      <p className="font-serif text-lg font-light">Aurelia (2021)</p>
-                      <p className="text-[11px] uppercase tracking-wider text-[#8E847A]">
-                        Micro-Rooted Angora Mohair · Heat-Cured Oils
-                      </p>
-                    </div>
-                    <span className="p-2 rounded-full bg-[#FAF7F2] text-[#201D1B] group-hover:bg-[#E29578] group-hover:text-white transition-colors">
-                      <ZoomIn className="w-4 h-4" />
-                    </span>
-                  </div>
-                </div>
-
-                {/* Overlapping Secondary Asset Badge */}
-                <div
-                  onClick={() => openLightboxAt(1)}
-                  className="hidden sm:flex absolute -bottom-6 -left-8 group items-center gap-3.5 p-3.5 pr-5 rounded-2xl bg-white/95 backdrop-blur-md border border-[#E8E0D5] shadow-lg cursor-pointer hover:border-[#E29578]/50 transition-all"
-                >
-                  <div className="relative w-14 h-14 rounded-xl overflow-hidden bg-[#F3ECE4] shrink-0">
-                    <Image
-                      src="/assets/baby7.png"
-                      alt="Vesper detail"
-                      fill
-                      className="object-cover group-hover:scale-110 transition-transform duration-500"
-                    />
-                  </div>
-                  <div>
-                    <span className="block font-serif text-sm font-light text-[#201D1B]">
-                      Vesper (2022)
-                    </span>
-                    <span className="block text-[10px] uppercase tracking-wider text-[#A45537]">
-                      Vintage Heirloom Series
-                    </span>
-                  </div>
-                </div>
-              </div>
+            <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
+              <Button href="/work" variant="primary" size="lg" icon={<ArrowRight className="w-4 h-4 text-[#E29578]" />}>
+                {t.hero.viewCreations}
+              </Button>
+              <Button href="/atelier" variant="secondary" size="lg">
+                {t.hero.enterAtelier}
+              </Button>
             </div>
           </div>
         </Container>

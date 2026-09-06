@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   description: `The fine art practice of ${BRAND.fullArtistName}. Hyperrealistic baby sculptures, meticulous atelier craftsmanship, and evolving sculptural universe.`,
   keywords: [
     'Baby Maker Petit',
-    'Melissa Rosales',
+    'Melissa Rendon',
     'Hyperrealistic baby sculpture',
     'Reborn art gallery',
     'Fine art dolls',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
         url: '/assets/baby3.jpg',
         width: 1080,
         height: 1050,
-        alt: 'Aurelia — Hyperrealistic Newborn Sculpture by Melissa Rosales',
+        alt: 'Aurelia — Hyperrealistic Newborn Sculpture by Melissa Rendon',
       },
     ],
     locale: 'en_US',

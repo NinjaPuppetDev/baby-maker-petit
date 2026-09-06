@@ -14,6 +14,7 @@ export function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const pathname = usePathname();
   const { language, toggleLanguage, t } = useLanguage();
+  const isHero = pathname === '/' && !isScrolled;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -58,10 +59,12 @@ export function Navigation() {
         {/* Brand Link */}
         <Link
           href="/"
-          className="group flex items-center gap-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#E29578] rounded-full pr-3 py-1"
+          className={`group flex items-center gap-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#E29578] rounded-full pr-3 py-1 ${
+            isHero ? 'text-white' : 'text-[#201D1B]'
+          }`}
           aria-label={BRAND.name}
         >
-          <div className="relative w-8 h-8 md:w-9 md:h-9 rounded-full overflow-hidden border border-[#E29578]/30 bg-[#F9EBE5] transition-transform duration-300 group-hover:scale-105">
+            <div className="relative w-8 h-8 md:w-9 md:h-9 rounded-full overflow-hidden border border-[#E29578]/30 bg-[#F9EBE5] transition-transform duration-300 group-hover:scale-105">
             <Image
               src="/assets/logo-circle.png"
               alt={BRAND.name}
@@ -70,7 +73,9 @@ export function Navigation() {
               priority
             />
           </div>
-          <span className="font-serif text-lg md:text-xl font-light tracking-wide text-[#201D1B] group-hover:text-[#A45537] transition-colors">
+          <span className={`font-serif text-lg md:text-xl font-light tracking-wide transition-colors ${
+            isHero ? 'text-white group-hover:text-white/80' : 'text-[#201D1B] group-hover:text-[#A45537]'
+          }`}>
             {BRAND.name}
           </span>
         </Link>
@@ -89,7 +94,7 @@ export function Navigation() {
                 className={`text-xs uppercase tracking-[0.14em] transition-all duration-200 relative py-1 ${
                   isActive
                     ? 'text-[#201D1B] font-semibold'
-                    : 'text-[#6A635D] hover:text-[#201D1B] font-normal'
+                    : isHero ? 'text-white/80 hover:text-white font-normal' : 'text-[#6A635D] hover:text-[#201D1B] font-normal'
                 }`}
               >
                 {link.label}
@@ -103,13 +108,17 @@ export function Navigation() {
           {/* Quiet Language Toggle */}
           <button
             onClick={toggleLanguage}
-            className="flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-sans font-medium tracking-wider text-[#6A635D] hover:text-[#201D1B] border border-[#E8E0D5] hover:border-[#201D1B]/30 bg-[#FAF7F2]/60 hover:bg-white transition-all cursor-pointer"
+            className={`flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-sans font-medium tracking-wider transition-all cursor-pointer ${
+              isHero
+                ? 'text-white/80 hover:text-white border-white/40 hover:border-white/70 bg-black/10 hover:bg-black/20'
+                : 'text-[#6A635D] hover:text-[#201D1B] border-[#E8E0D5] hover:border-[#201D1B]/30 bg-[#FAF7F2]/60 hover:bg-white'
+            }`}
             aria-label={`${t.nav.language}: ${language.toUpperCase()}`}
           >
             <Globe className="w-3 h-3 text-[#E29578]" />
-            <span className={language === 'en' ? 'text-[#201D1B] font-bold' : 'opacity-60'}>EN</span>
+            <span className={language === 'en' ? (isHero ? 'text-white font-bold' : 'text-[#201D1B] font-bold') : 'opacity-60'}>EN</span>
             <span className="opacity-30">/</span>
-            <span className={language === 'es' ? 'text-[#201D1B] font-bold' : 'opacity-60'}>ES</span>
+            <span className={language === 'es' ? (isHero ? 'text-white font-bold' : 'text-[#201D1B] font-bold') : 'opacity-60'}>ES</span>
           </button>
         </nav>
 
@@ -117,17 +126,21 @@ export function Navigation() {
         <div className="flex items-center gap-2 md:hidden">
           <button
             onClick={toggleLanguage}
-            className="flex items-center gap-1 px-2 py-1 rounded-full text-[11px] font-sans font-medium tracking-wider text-[#6A635D] border border-[#E8E0D5] bg-[#FAF7F2]"
+            className={`flex items-center gap-1 px-2 py-1 rounded-full text-[11px] font-sans font-medium tracking-wider border ${
+              isHero ? 'text-white/80 border-white/40 bg-black/10' : 'text-[#6A635D] border-[#E8E0D5] bg-[#FAF7F2]'
+            }`}
             aria-label={t.nav.language}
           >
-            <span className={language === 'en' ? 'font-bold text-[#201D1B]' : 'opacity-60'}>EN</span>
+            <span className={language === 'en' ? (isHero ? 'font-bold text-white' : 'font-bold text-[#201D1B]') : 'opacity-60'}>EN</span>
             <span className="opacity-30">/</span>
-            <span className={language === 'es' ? 'font-bold text-[#201D1B]' : 'opacity-60'}>ES</span>
+            <span className={language === 'es' ? (isHero ? 'font-bold text-white' : 'font-bold text-[#201D1B]') : 'opacity-60'}>ES</span>
           </button>
 
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="p-2 text-[#201D1B] rounded-full hover:bg-[#F3ECE4] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#E29578]"
+            className={`p-2 rounded-full hover:bg-[#F3ECE4] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#E29578] ${
+              isHero ? 'text-white' : 'text-[#201D1B]'
+            }`}
             aria-label={t.nav.toggleMenu}
             aria-expanded={mobileMenuOpen}
           >

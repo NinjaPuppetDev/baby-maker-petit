@@ -69,10 +69,10 @@ export const CREATIONS: Creation[] = [
           es: 'Certificado de Autenticidad Original',
         },
         caption: {
-          en: 'Issued July 23, 2021, documenting birth weight (3.5 kg), length (58.42 cm), signed and sealed by artist Melissa Rosales.',
-          es: 'Emitido el 23 de julio de 2021, documentando peso (3.5 kg), longitud (58.42 cm), firmado y sellado por la artista Melissa Rosales.',
+          en: 'Issued July 23, 2021, documenting birth weight (3.5 kg), length (58.42 cm), signed and sealed by artist Melissa Rendon.',
+          es: 'Emitido el 23 de julio de 2021, documentando peso (3.5 kg), longitud (58.42 cm), firmado y sellado por la artista Melissa Rendon.',
         },
-        alt: 'Baby Maker Petit Certificate of Authenticity signed by Mel Rosales',
+        alt: 'Baby Maker Petit Certificate of Authenticity signed by Mel Rendon',
       },
       {
         url: '/assets/baby1_portrait.jpg',

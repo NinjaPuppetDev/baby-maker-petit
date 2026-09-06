@@ -185,6 +185,6 @@ export const ATELIER_STEPS: AtelierStep[] = [
       ],
     },
     image: '/assets/baby1_certificate.jpg',
-    imageAlt: 'Baby Maker Petit Certificate of Authenticity signed by Melissa Rosales',
+    imageAlt: 'Baby Maker Petit Certificate of Authenticity signed by Melissa Rendon',
   },
 ];
