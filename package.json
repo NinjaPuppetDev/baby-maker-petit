@@ -2,6 +2,7 @@
   "name": "babymakerpetit-agy",
   "version": "1.0.0",
   "private": true,
+  "packageManager": "pnpm@10.5.2",
   "scripts": {
     "dev": "next dev -p 3000 -H 0.0.0.0",
     "build": "next build",
