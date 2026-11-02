@@ -28,7 +28,7 @@ export default function WorldPage() {
         <Container size="xl">
           <div className="max-w-3xl space-y-6">
             <span className="font-mono text-xs tracking-widest text-[#E29578] uppercase">
-              ARTISTIC HORIZON
+              {language === 'en' ? 'ARTISTIC HORIZON' : 'HORIZONTE ARTÍSTICO'}
             </span>
             <Text variant="display-l" className="text-white">
               {t.world.title}
@@ -54,7 +54,7 @@ export default function WorldPage() {
         <Container size="xl">
           <div className="mb-12">
             <span className="font-mono text-xs tracking-widest text-[#A45537] bg-[#F9EBE5] px-2.5 py-1 rounded-full border border-[#E29578]/30">
-              EXPLORATORY PATHWAYS
+              {language === 'en' ? 'EXPLORATORY PATHWAYS' : 'LÍNEAS DE EXPLORACIÓN'}
             </span>
             <Text variant="display-m" className="text-[#201D1B] mt-3">
               {t.world.territoriesTitle}

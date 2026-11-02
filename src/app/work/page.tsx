@@ -25,7 +25,7 @@ export default function WorkPage() {
         <Container size="xl">
           <div className="max-w-3xl space-y-4">
             <span className="font-mono text-xs tracking-widest text-[#A45537] bg-[#F9EBE5] px-2.5 py-1 rounded-full border border-[#E29578]/30">
-              ARTWORK ARCHIVE
+              {language === 'en' ? 'ARTWORK ARCHIVE' : 'ARCHIVO DE OBRAS'}
             </span>
             <Text variant="display-l" className="text-[#201D1B]">
               {t.work.title}

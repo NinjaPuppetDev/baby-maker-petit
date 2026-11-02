@@ -163,11 +163,11 @@ export default function HomePage() {
                 <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/90 backdrop-blur-xs text-xs font-sans font-medium text-[#201D1B]">
                     <ZoomIn className="w-3.5 h-3.5 text-[#E29578]" />
-                    <span>Examine Raw Painted Vinyl</span>
+                    <span>{language === 'en' ? 'Examine Raw Painted Vinyl' : 'Examinar Vinilo Pintado en Crudo'}</span>
                   </span>
                 </div>
                 <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-xs px-3 py-1 rounded-full text-xs font-mono text-[#6A635D] border border-[#E8E0D5]">
-                  Chapter 02 · 25+ Subdermal Glaze Layers
+                  {language === 'en' ? 'Chapter 02 · 25+ Subdermal Glaze Layers' : 'Capítulo 02 · +25 Capas de Veladuras Subdérmicas'}
                 </div>
               </div>
 
@@ -184,7 +184,9 @@ export default function HomePage() {
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                    <span className="text-white text-xs font-sans font-medium">Chapter 04 · Micro-Rooting</span>
+                    <span className="text-white text-xs font-sans font-medium">
+                      {language === 'en' ? 'Chapter 04 · Micro-Rooting' : 'Capítulo 04 · Micro-Enraizado'}
+                    </span>
                   </div>
                 </div>
                 <div
@@ -198,7 +200,9 @@ export default function HomePage() {
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                    <span className="text-white text-xs font-sans font-medium">Chapter 05 · Tactile Realism</span>
+                    <span className="text-white text-xs font-sans font-medium">
+                      {language === 'en' ? 'Chapter 05 · Tactile Realism' : 'Capítulo 05 · Realismo Táctil'}
+                    </span>
                   </div>
                 </div>
               </div>
@@ -223,9 +227,13 @@ export default function HomePage() {
                     01
                   </div>
                   <div>
-                    <h4 className="text-sm font-semibold text-[#201D1B]">Subdermal Optical Depth</h4>
+                    <h4 className="text-sm font-semibold text-[#201D1B]">
+                      {language === 'en' ? 'Subdermal Optical Depth' : 'Profundidad Óptica Subdérmica'}
+                    </h4>
                     <p className="text-xs text-[#6A635D] leading-relaxed">
-                      Micro-sponged veining and capillary flushes cured in repeated 130°C cycles.
+                      {language === 'en'
+                        ? 'Micro-sponged veining and capillary flushes cured in repeated 130°C cycles.'
+                        : 'Veteado micro-esponjado y rubores capilares curados en múltiples ciclos de horneado a 130°C.'}
                     </p>
                   </div>
                 </div>
@@ -234,9 +242,13 @@ export default function HomePage() {
                     02
                   </div>
                   <div>
-                    <h4 className="text-sm font-semibold text-[#201D1B]">Single-Follicle Implantation</h4>
+                    <h4 className="text-sm font-semibold text-[#201D1B]">
+                      {language === 'en' ? 'Single-Follicle Implantation' : 'Implantación Folicular Individual'}
+                    </h4>
                     <p className="text-xs text-[#6A635D] leading-relaxed">
-                      Ethical Angora mohair rooted strand-by-strand with 42G ultra-fine German needles.
+                      {language === 'en'
+                        ? 'Ethical Angora mohair rooted strand-by-strand with 42G ultra-fine German needles.'
+                        : 'Mohair de angora ético implantado hebra por hebra con agujas alemanas ultrafinas de calibre 42G.'}
                     </p>
                   </div>
                 </div>
@@ -245,9 +257,13 @@ export default function HomePage() {
                     03
                   </div>
                   <div>
-                    <h4 className="text-sm font-semibold text-[#201D1B]">Natural Gravitational Weight</h4>
+                    <h4 className="text-sm font-semibold text-[#201D1B]">
+                      {language === 'en' ? 'Natural Gravitational Weight' : 'Peso Gravitacional Natural'}
+                    </h4>
                     <p className="text-xs text-[#6A635D] leading-relaxed">
-                      Optical glass micro-beads calibrated so holding the piece requires supporting the neck.
+                      {language === 'en'
+                        ? 'Optical glass micro-beads calibrated so holding the piece requires supporting the neck.'
+                        : 'Microesferas de vidrio óptico calibradas para que sostener la obra exija apoyar la cabecita.'}
                     </p>
                   </div>
                 </div>
@@ -276,7 +292,9 @@ export default function HomePage() {
                 {t.home.artistTeaserQuote}
               </Text>
               <p className="text-base text-[#6A635D] leading-relaxed">
-                Operating from her private studio since 2020, Melissa creates works that challenge the boundary between sculpture and tender vulnerability. Every creation is cataloged and issued with a physical, hand-signed Certificate of Authenticity.
+                {language === 'en'
+                  ? 'Operating from her private studio since 2020, Melissa creates works that challenge the boundary between sculpture and tender vulnerability. Every creation is cataloged and issued with a physical, hand-signed Certificate of Authenticity.'
+                  : 'Desde su taller privado fundado en 2020 en Colombia, Melissa crea obras que desafían la frontera entre la escultura y la ternura viva. Cada creación está catalogada y se entrega con su Certificado de Autenticidad físico firmado a mano.'}
               </p>
 
               <div className="pt-2 flex flex-wrap items-center gap-4">
@@ -288,7 +306,7 @@ export default function HomePage() {
                   className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-[#E8E0D5] bg-white text-xs font-sans font-medium uppercase tracking-wider text-[#201D1B] hover:border-[#A45537] transition-all cursor-pointer"
                 >
                   <ShieldCheck className="w-4 h-4 text-[#E29578]" />
-                  <span>Inspect Certificate</span>
+                  <span>{language === 'en' ? 'Inspect Certificate' : 'Ver Certificado'}</span>
                 </button>
               </div>
             </div>
@@ -312,14 +330,16 @@ export default function HomePage() {
                   <div className="flex items-center gap-2">
                     <ShieldCheck className="w-4 h-4 text-[#E29578]" />
                     <span className="text-[11px] font-mono uppercase tracking-widest text-[#F9EBE5]">
-                      Official Provenance Record
+                      {language === 'en' ? 'Official Provenance Record' : 'Registro Oficial de Procedencia'}
                     </span>
                   </div>
                   <p className="font-serif text-lg font-light">
-                    Certificate of Authenticity · Julien
+                    {language === 'en' ? 'Certificate of Authenticity · Julien' : 'Certificado de Autenticidad · Julien'}
                   </p>
                   <p className="text-xs text-white/80">
-                    Signed & dated by Melissa Rendon (23/07/2021)
+                    {language === 'en'
+                      ? 'Signed & dated by Melissa Rendon (23/07/2021)'
+                      : 'Firmado y fechado por Melissa Rendon (23/07/2021)'}
                   </p>
                 </div>
               </div>

@@ -22,7 +22,7 @@ export default function ArtistPage() {
         <Container size="xl">
           <div className="max-w-3xl space-y-4">
             <span className="font-mono text-xs tracking-widest text-[#A45537] bg-[#F9EBE5] px-2.5 py-1 rounded-full border border-[#E29578]/30">
-              MEET THE MAKER
+              {language === 'en' ? 'MEET THE MAKER' : 'CONOCE A LA ARTISTA'}
             </span>
             <Text variant="display-l" className="text-[#201D1B]">
               {t.artist.title}
@@ -55,21 +55,27 @@ export default function ArtistPage() {
 
                 <div className="absolute bottom-6 left-6 right-6 text-white space-y-1">
                   <span className="text-[11px] font-mono uppercase tracking-widest text-[#F9EBE5]">
-                    Atelier Authenticity
+                    {language === 'en' ? 'Atelier Authenticity' : 'Autenticidad del Atelier'}
                   </span>
                   <p className="font-serif text-lg">
-                    Certified Sculpture & Hand-Signed Provenance
+                    {language === 'en'
+                      ? 'Certified Sculpture & Hand-Signed Provenance'
+                      : 'Escultura Certificada y Procedencia Firmada a Mano'}
                   </p>
                 </div>
               </div>
 
               <div className="p-4 rounded-2xl bg-white border border-[#E8E0D5] flex items-center justify-between text-xs text-[#6A635D]">
-                <span>Artistic Practice Est. {BRAND.yearEstablished}</span>
+                <span>
+                  {language === 'en'
+                    ? `Artistic Practice Est. ${BRAND.yearEstablished}`
+                    : `Práctica Artística Est. ${BRAND.yearEstablished}`}
+                </span>
                 <button
                   onClick={() => setCertificateOpen(true)}
                   className="text-[#A45537] font-semibold hover:underline cursor-pointer"
                 >
-                  Inspect Document
+                  {language === 'en' ? 'Inspect Document' : 'Ver Certificado'}
                 </button>
               </div>
             </div>

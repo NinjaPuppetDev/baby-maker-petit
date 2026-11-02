@@ -54,7 +54,7 @@ function ContactFormInner() {
         <Container size="xl">
           <div className="max-w-3xl space-y-4">
             <span className="font-mono text-xs tracking-widest text-[#A45537] bg-[#F9EBE5] px-2.5 py-1 rounded-full border border-[#E29578]/30">
-              ATELIER INQUIRY
+              {language === 'en' ? 'ATELIER INQUIRY' : 'CONSULTA DE ATELIER'}
             </span>
             <Text variant="display-l" className="text-[#201D1B]">
               {t.contact.title}
@@ -163,7 +163,9 @@ function ContactFormInner() {
 
                     <div className="pt-2 flex items-center justify-between gap-4">
                       <span className="text-xs text-[#968F87]">
-                        Melissa personally responds within 48 hours.
+                        {language === 'en'
+                          ? 'Melissa personally responds within 48 hours.'
+                          : 'Melissa responde personalmente en un plazo de 48 horas.'}
                       </span>
                       <Button
                         variant="primary"
@@ -185,13 +187,13 @@ function ContactFormInner() {
               <div className="bg-[#F3ECE4] rounded-3xl p-8 border border-[#E8E0D5] space-y-6">
                 <div>
                   <span className="font-mono text-xs uppercase tracking-widest text-[#A45537]">
-                    DIRECT STUDIO ACCESS
+                    {language === 'en' ? 'DIRECT STUDIO ACCESS' : 'CANAL DIRECTO DEL TALLER'}
                   </span>
                   <h3 className="font-serif text-2xl font-light text-[#201D1B] mt-1">
                     {BRAND.name} Atelier
                   </h3>
                   <p className="text-xs text-[#8E847A] mt-0.5">
-                    {BRAND.fullArtistName} · Private Practice
+                    {BRAND.fullArtistName} · {language === 'en' ? 'Private Practice' : 'Atelier Privado'}
                   </p>
                 </div>
 
@@ -204,7 +206,9 @@ function ContactFormInner() {
                       <Mail className="w-4 h-4" />
                     </div>
                     <div className="flex-1">
-                      <p className="text-xs text-[#8E847A] uppercase tracking-wider">Email Atelier</p>
+                      <p className="text-xs text-[#8E847A] uppercase tracking-wider">
+                        {language === 'en' ? 'Email Atelier' : 'Correo del Taller'}
+                      </p>
                       <p className="font-medium">{BRAND.contactEmail}</p>
                     </div>
                     <ArrowUpRight className="w-4 h-4 text-[#8E847A] group-hover:text-[#201D1B] transition-colors" />
@@ -230,15 +234,25 @@ function ContactFormInner() {
                 <div className="pt-4 border-t border-[#E8E0D5]/70 space-y-3 text-xs text-[#6A635D]">
                   <div className="flex items-center gap-2">
                     <Clock className="w-4 h-4 text-[#E29578]" />
-                    <span>Response timeframe: Within 2 business days</span>
+                    <span>
+                      {language === 'en'
+                        ? 'Response timeframe: Within 2 business days'
+                        : 'Tiempo de respuesta: Dentro de 2 días hábiles'}
+                    </span>
                   </div>
                   <div className="flex items-center gap-2">
                     <MapPin className="w-4 h-4 text-[#E29578]" />
-                    <span>{BRAND.location} · International insured art shipping</span>
+                    <span>
+                      {BRAND.location} · {language === 'en' ? 'International insured art shipping' : 'Envíos internacionales asegurados'}
+                    </span>
                   </div>
                   <div className="flex items-center gap-2">
                     <ShieldCheck className="w-4 h-4 text-[#E29578]" />
-                    <span>All commissions registered with physical Certificate of Authenticity</span>
+                    <span>
+                      {language === 'en'
+                        ? 'All commissions registered with physical Certificate of Authenticity'
+                        : 'Todas las obras registradas con Certificado Físico Oficial'}
+                    </span>
                   </div>
                 </div>
               </div>

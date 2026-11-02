@@ -13,7 +13,7 @@ export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const pathname = usePathname();
-  const { language, toggleLanguage, t } = useLanguage();
+  const { language, toggleLanguage, t, isColombiaUser } = useLanguage();
   // Hero is now light parchment, so navbar uses dark charcoal typography throughout
   const isHero = false;
 
@@ -114,6 +114,7 @@ export function Navigation() {
                 ? 'text-white/80 hover:text-white border-white/40 hover:border-white/70 bg-black/10 hover:bg-black/20'
                 : 'text-[#6A635D] hover:text-[#201D1B] border-[#E8E0D5] hover:border-[#201D1B]/30 bg-[#FAF7F2]/60 hover:bg-white'
             }`}
+            title={isColombiaUser ? 'Idioma: Español (Colombia)' : `${t.nav.language}: ${language.toUpperCase()}`}
             aria-label={`${t.nav.language}: ${language.toUpperCase()}`}
           >
             <Globe className="w-3 h-3 text-[#E29578]" />
@@ -130,6 +131,7 @@ export function Navigation() {
             className={`flex items-center gap-1 px-2 py-1 rounded-full text-[11px] font-sans font-medium tracking-wider border ${
               isHero ? 'text-white/80 border-white/40 bg-black/10' : 'text-[#6A635D] border-[#E8E0D5] bg-[#FAF7F2]'
             }`}
+            title={isColombiaUser ? 'Idioma: Español (Colombia)' : `${t.nav.language}: ${language.toUpperCase()}`}
             aria-label={t.nav.language}
           >
             <span className={language === 'en' ? (isHero ? 'font-bold text-white' : 'font-bold text-[#201D1B]') : 'opacity-60'}>EN</span>

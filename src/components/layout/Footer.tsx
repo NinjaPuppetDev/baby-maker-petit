@@ -47,7 +47,7 @@ export function Footer() {
           {/* Col 2: Navigation Links (3 cols) */}
           <div className="md:col-span-3 space-y-4">
             <Text variant="label" className="text-[#8E847A]">
-              Navigation
+              {t.footer.navigationTitle}
             </Text>
             <ul className="space-y-2.5 text-sm">
               <li>
@@ -81,10 +81,10 @@ export function Footer() {
           {/* Col 3: Studio & Inquiries (4 cols) */}
           <div className="md:col-span-4 space-y-4">
             <Text variant="label" className="text-[#8E847A]">
-              Atelier Inquiries
+              {t.footer.inquiriesTitle}
             </Text>
             <p className="text-sm text-[#6A635D] leading-relaxed">
-              Every creation is documented and issued with an official registered Certificate of Authenticity. For private acquisitions or bespoke commissions:
+              {t.footer.inquiriesText}
             </p>
             <div className="pt-2 flex flex-col gap-2.5">
               <a
@@ -106,7 +106,7 @@ export function Footer() {
               </a>
             </div>
             <p className="text-xs text-[#968F87] pt-2">
-              Private Studio · Est. {BRAND.yearEstablished}
+              {t.footer.studioEst} {BRAND.yearEstablished}
             </p>
           </div>
         </div>

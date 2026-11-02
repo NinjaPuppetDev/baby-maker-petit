@@ -1,11 +1,13 @@
 import type { Metadata } from 'next';
+import { cookies, headers } from 'next/headers';
 import { Cormorant_Garamond, Plus_Jakarta_Sans } from 'next/font/google';
 import './globals.css';
 import { LanguageProvider } from '@/context/LanguageContext';
 import { Navigation } from '@/components/layout/Navigation';
 import { Footer } from '@/components/layout/Footer';
-import { IntroOverlay } from '@/components/layout/IntroOverlay';
 import { BRAND } from '@/config/brand';
+import { isHispanicCountry, isHispanicAcceptLanguage } from '@/config/geo';
+import { Language } from '@/types';
 
 const cormorant = Cormorant_Garamond({
   subsets: ['latin'],
@@ -33,6 +35,8 @@ export const metadata: Metadata = {
     'Fine art dolls',
     'Original silicone sculpture',
     'Artisan atelier',
+    'Escultura hiperrealista',
+    'Bebés reborn Colombia',
   ],
   authors: [{ name: BRAND.fullArtistName }],
   openGraph: {
@@ -57,16 +61,47 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // Determine server-side initial language from cookies and geo headers
+  const cookieStore = await cookies();
+  const savedLang = cookieStore.get('bmp_language')?.value as Language | undefined;
+
+  let initialLanguage: Language = 'en';
+
+  if (savedLang === 'en' || savedLang === 'es') {
+    initialLanguage = savedLang;
+  } else {
+    const headersList = await headers();
+    const initialHeader = headersList.get('x-bmp-initial-lang');
+
+    if (initialHeader === 'es') {
+      initialLanguage = 'es';
+    } else {
+      const geoCountry = (
+        headersList.get('x-bmp-country') ||
+        headersList.get('x-vercel-ip-country') ||
+        headersList.get('cf-ipcountry') ||
+        headersList.get('x-country-code') ||
+        headersList.get('x-client-geo-country') ||
+        headersList.get('x-appengine-country')
+      )?.trim().toUpperCase();
+
+      const acceptLang = headersList.get('accept-language');
+
+      if (isHispanicCountry(geoCountry) || isHispanicAcceptLanguage(acceptLang)) {
+        initialLanguage = 'es';
+      }
+    }
+  }
+
   return (
-    <html lang="en" className={`${cormorant.variable} ${plusJakarta.variable}`}>
+    <html lang={initialLanguage} className={`${cormorant.variable} ${plusJakarta.variable}`}>
       <body className="min-h-screen flex flex-col bg-[#FAF7F2] text-[#201D1B] antialiased selection:bg-[#F9EBE5] selection:text-[#201D1B]">
-        <LanguageProvider>
-          <IntroOverlay />
+        <LanguageProvider initialLanguage={initialLanguage}>
           <Navigation />
           <main className="flex-1">
             {children}

@@ -129,6 +129,10 @@ export const TRANSLATIONS = {
       quote: '“Treat the dolls as artworks. Treat the website as a gallery. Treat the interface as atmosphere.”',
       centralBrand: 'Baby Maker Petit',
       artistCredit: 'An artistic practice by Melissa Rendon',
+      navigationTitle: 'Navigation',
+      inquiriesTitle: 'Atelier Inquiries',
+      inquiriesText: 'Every creation is documented and issued with an official registered Certificate of Authenticity. For private acquisitions or bespoke commissions:',
+      studioEst: 'Private Studio · Est.',
     },
     lightbox: {
       close: 'Close gallery (Esc)',
@@ -267,6 +271,10 @@ export const TRANSLATIONS = {
       quote: '“Tratar las obras como arte. Tratar la web como una galería. Tratar la interfaz como atmósfera.”',
       centralBrand: 'Baby Maker Petit',
       artistCredit: 'Una práctica artística de Melissa Rendon',
+      navigationTitle: 'Navegación',
+      inquiriesTitle: 'Consultas de Atelier',
+      inquiriesText: 'Cada creación está documentada y se entrega con su Certificado Oficial de Autenticidad. Para adquisiciones privadas o encargos personalizados:',
+      studioEst: 'Taller Privado · Est.',
     },
     lightbox: {
       close: 'Cerrar galería (Esc)',
