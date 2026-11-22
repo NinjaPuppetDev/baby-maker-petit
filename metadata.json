@@ -1,0 +1,6 @@
+{
+  "name": "Baby Maker Petit",
+  "description": "Hyperrealistic baby sculptures, meticulous atelier craftsmanship, and evolving sculptural universe by Melissa Rendon.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

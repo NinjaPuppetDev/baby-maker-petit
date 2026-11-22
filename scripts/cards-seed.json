@@ -1,0 +1,663 @@
+{
+  "offers": [
+    {
+      "order": 1,
+      "idKey": "babies",
+      "category": { "en": "Sculpture Collection", "es": "Colección de Escultura" },
+      "title": { "en": "Babies", "es": "Bebés" },
+      "subtitle": { "en": "Hyperrealistic Reborn Artworks", "es": "Obras Hiperrealistas Reborn" },
+      "description": {
+        "en": "One-of-a-kind lifelike baby sculptures with authentic anatomical weight, micro-rooted mohair, and over 25 oven-cured translucent skin washes.",
+        "es": "Esculturas hiperrealistas únicas con peso anatómico natural, enraizado de mohair hebra por hebra y más de 25 veladuras translúcidas horneadas."
+      },
+      "badge": { "en": "Original Artworks", "es": "Obras Originales" },
+      "features": {
+        "en": ["Micro-Rooted Mohair", "Anatomical Weighting", "Official Signed COA"],
+        "es": ["Micro-Enraizado Mohair", "Peso Anatómico Real", "Certificado COA Firmado"]
+      },
+      "image": "/assets/baby3.jpg",
+      "imageAlt": "Aurelia — hyperrealistic newborn baby sculpture by Melissa Rendon",
+      "href": "/work",
+      "ctaText": { "en": "Explore Babies", "es": "Explorar Bebés" }
+    },
+    {
+      "order": 2,
+      "idKey": "courses",
+      "category": { "en": "Atelier Academy", "es": "Academia del Atelier" },
+      "title": { "en": "Courses", "es": "Cursos" },
+      "subtitle": { "en": "Technique & Mentorship", "es": "Técnica & Mentoría" },
+      "description": {
+        "en": "Hands-on atelier training and specialized mentorship covering subdermal veining, capillary mottling, 42G fine needle implantation, and anatomical balance.",
+        "es": "Formación práctica de atelier y mentoría personalizada en veladuras subdérmicas, veteado capilar, implantación con aguja fina y balance anatómico."
+      },
+      "badge": { "en": "Masterclasses", "es": "Masterclasses" },
+      "features": {
+        "en": ["Subdermal Vein Mapping", "Single-Strand Rooting", "Artist Mentorship"],
+        "es": ["Mapeo Venoso Subdérmico", "Enraizado Individual", "Mentoría Personalizada"]
+      },
+      "image": "/assets/baby8.png",
+      "imageAlt": "Atelier study vinyl sculpture parts undergoing multi-layer painting",
+      "href": "/courses",
+      "ctaText": { "en": "Discover Courses", "es": "Conocer Cursos" }
+    },
+    {
+      "order": 3,
+      "idKey": "accessories-clothes",
+      "category": { "en": "Curated Wardrobe", "es": "Guardarropa de Autor" },
+      "title": { "en": "Accessories & Clothes", "es": "Ropa & Accesorios" },
+      "subtitle": { "en": "Handcrafted Heirlooms", "es": "Confección Patrimonial" },
+      "description": {
+        "en": "Bespoke tailored heirloom outfits, delicate hand-knitted cardigans, vintage bonnets, and custom magnetic pacifiers tailored for collectible sculptures.",
+        "es": "Conjuntos patrimoniales a medida, cárdigans de lana tejidos a mano, capotas vintage y chupetes imantados hechos a mano para esculturas de colección."
+      },
+      "badge": { "en": "Handmade Couture", "es": "Alta Costura Artesanal" },
+      "features": {
+        "en": ["Hand-Knitted Wool", "Heirloom Bonnets & Lace", "Sculpture-Safe Accents"],
+        "es": ["Lana Natural Tejida", "Capotas y Encajes Vintage", "Materiales Seguros"]
+      },
+      "image": "/assets/baby7.png",
+      "imageAlt": "Vesper wearing hand-tailored heirloom bonnet and vintage lace clothing",
+      "href": "/accessories",
+      "ctaText": { "en": "Explore Collection", "es": "Explorar Colección" }
+    }
+  ],
+  "courses": [
+    {
+      "order": 1,
+      "slug": "subdermal-painting",
+      "badge": { "en": "Foundational Masterclass", "es": "Masterclass Fundamental" },
+      "title": { "en": "Subdermal Glaze & Capillary Mottling", "es": "Veladuras Subdérmicas & Veteado Capilar" },
+      "subtitle": {
+        "en": "Building organic translucent skin through 25+ heat-cured oil layers",
+        "es": "Construcción de piel orgánica translúcida mediante 25+ capas al óleo horneadas"
+      },
+      "duration": { "en": "4 Weeks · Hands-on Study", "es": "4 Semanas · Estudio Práctico" },
+      "level": { "en": "Intermediate to Advanced", "es": "Intermedio a Avanzado" },
+      "format": { "en": "Studio Workshop or Private Intensive", "es": "Taller de Estudio o Intensivo Privado" },
+      "description": {
+        "en": "Master the optical physics of human infant skin. Learn how to map deep blue and lavender subdermal venous networks, apply microscopic capillary flushing with natural Mediterranean sponges, and bake Genesis mineral glazes sequentially without burning or cloudy residue.",
+        "es": "Domina la física óptica de la piel infantil. Aprende a trazar redes venosas subdérmicas azules y lavanda, aplicar rubor capilar microscópico con esponjas marinas naturales y curar veladuras minerales Genesis secuencialmente sin turbidez."
+      },
+      "curriculum": {
+        "en": [
+          "Neutralizing, degreasing, and vinyl matrix surface preparation",
+          "Subdermal venous mapping: temporal veins, cranial arteries, and inner wrist branching",
+          "Multi-frequency cellular mottling: warm undertones vs. cool capillary depth",
+          "Graduated thermal curing schedules at 130°C and matte varnish finishing"
+        ],
+        "es": [
+          "Neutralización, desengrasado y preparación de la matriz de vinilo virgen",
+          "Mapeo venoso subdérmico: venas temporales, arterias craneales y ramificaciones",
+          "Veteado celular multifrecuencia: tonos cálidos vs. profundidad capilar fría",
+          "Curva de horneado térmico a 130°C y sellado aterciopelado con barniz mate"
+        ]
+      },
+      "includes": {
+        "en": [
+          "Curated 12-color Genesis artist mineral pigment palette",
+          "Natural sea sponge set & fine sable wash brushes",
+          "Studio curing thermometer & surface inspection lens"
+        ],
+        "es": [
+          "Paleta selecta de 12 pigmentos minerales Genesis para artistas",
+          "Juego de esponjas marinas naturales y pinceles finos de marta",
+          "Termómetro de horneado de estudio y lupa de inspección de superficie"
+        ]
+      },
+      "image": "/assets/baby8_head.jpg",
+      "imageAlt": "Micro-veining and mottling detail on painted vinyl head"
+    },
+    {
+      "order": 2,
+      "slug": "micro-rooting-intensive",
+      "badge": { "en": "Precision Mastery", "es": "Maestría en Precisión" },
+      "title": { "en": "Micro-Rooting & Natural Follicular Direction", "es": "Micro-Enraizado & Dirección Folicular Natural" },
+      "subtitle": {
+        "en": "Single-strand Angora mohair implantation with 42G ultra-fine needles",
+        "es": "Implantación hebra por hebra de mohair con agujas alemanas de 42G"
+      },
+      "duration": { "en": "3 Weeks · Precision Technique", "es": "3 Semanas · Técnica de Precisión" },
+      "level": { "en": "All Levels Focused on Patience", "es": "Todos los Niveles con Foco en Paciencia" },
+      "format": { "en": "Step-by-Step Hands-On Guidance", "es": "Instrucción Práctica Paso a Paso" },
+      "description": {
+        "en": "Hair defines the soul and realism of a reborn sculpture. This intensive teaches natural infant whorl dynamics, spiral crown crowns, microscopic temple baby-hairs, and feather-light painted/rooted eyebrows using single-strand needle techniques with invisible entry pores.",
+        "es": "El cabello define el alma y realismo de una escultura reborn. Este intensivo enseña la dinámica de remolinos infantiles, coronillas en espiral, pelusilla natural en sienes y cejas combinadas con agujas ultrafinas de poro invisible."
+      },
+      "curriculum": {
+        "en": [
+          "Selecting and grading ethical South African Angora yearling mohair",
+          "Needle geometry: 40G vs. 42G barbed German needles and puncture angle physics",
+          "The Crown Whorl Architecture: mapping the natural infant spiral growth flow",
+          "Internal waterproof vinyl sealing for lifetime brushing and gentle washing"
+        ],
+        "es": [
+          "Selección y clasificación de mohair sudafricano de primera esquila",
+          "Geometría de aguja: agujas alemanas de 40G vs 42G y física del ángulo de entrada",
+          "Arquitectura del remolino: trazado del flujo de crecimiento espiral natural",
+          "Sellado interno impermeable para peinado seguro y preservación duradera"
+        ]
+      },
+      "includes": {
+        "en": [
+          "Certified premium kid mohair pack (choice of shade)",
+          "Set of 30 German 42-gauge ultra-fine micro-needles and ergonomic pin vice",
+          "Specialized interior vinyl sealant and styling serum"
+        ],
+        "es": [
+          "Pack de mohair premium de cría certificado (a elección de tono)",
+          "Set de 30 agujas alemanas ultrafinas calibre 42G y mandril ergonómico",
+          "Sellador vinílico interno especializado y sérum de peinado"
+        ]
+      },
+      "image": "/assets/baby3_macro.jpg",
+      "imageAlt": "Macro view of single-strand micro-rooted mohair on vinyl head"
+    },
+    {
+      "order": 3,
+      "slug": "complete-anatomical-sculpture",
+      "badge": { "en": "Comprehensive Studio Course", "es": "Curso Integral de Estudio" },
+      "title": { "en": "Complete Realism, Tactile Gravitas & Weighting", "es": "Realismo Integral, Gravitacional y Montaje Anatómico" },
+      "subtitle": {
+        "en": "From vinyl blank to living sculptural presence and provenance certification",
+        "es": "Del vinilo virgen a la presencia viva y certificación de autenticidad"
+      },
+      "duration": { "en": "6 Weeks · Full Artwork Creation", "es": "6 Semanas · Creación Completa de Obra" },
+      "level": { "en": "Beginner to Advanced Artisans", "es": "Artesanos Principiantes a Avanzados" },
+      "format": { "en": "Full Creation Mentorship (1 Artwork Completed)", "es": "Mentoría de Creación Completa (1 Obra Terminada)" },
+      "description": {
+        "en": "An immersive journey covering every stage of crafting a museum-grade hyperrealistic newborn sculpture. You will prepare raw vinyl, execute multi-phase oil glazes, align mouth-blown German Lauscha glass eyes, calibrate authentic gravitational weight distribution with glass micro-beads, and issue registered certification.",
+        "es": "Un recorrido completo por cada etapa de creación de una escultura de recién nacido con estándar de museo. Prepararás el vinilo, aplicarás las veladuras al óleo, alinearás ojos alemanes de cristal Lauscha soplado a boca, calibrarás el peso gravitacional con microesferas y emitirás el certificado."
+      },
+      "curriculum": {
+        "en": [
+          "Complete surface painting, mottling, venation, and sealing",
+          "Setting Lauscha mouth-blown German glass eyes with realistic eyelid curvature",
+          "Calibrating infant weight balance: floppy head tensioning and limb gravitas",
+          "Micro-nail lunulas, inner-lip hydration gloss, and archival documentation"
+        ],
+        "es": [
+          "Pintura completa de piel, veteado, sonrosado capilar y sellado mate",
+          "Colocación de ojos de cristal Lauscha con curvatura natural de párpados",
+          "Calibración de peso y balance: tensión de cuello y gravedad de extremidades",
+          "Lúnulas microscópicas en uñas, hidratación sutil y registro de procedencia"
+        ]
+      },
+      "includes": {
+        "en": [
+          "Original European sculpted vinyl kit of your choice",
+          "Pair of genuine mouth-blown German Lauscha glass eyes",
+          "High-density optical glass micro-beads and articulated flannel body",
+          "Personal 1-on-1 critique sessions with Melissa at each stage"
+        ],
+        "es": [
+          "Kit escultórico europeo original en vinilo a elección",
+          "Par de ojos alemanes de cristal Lauscha soplados a boca",
+          "Microesferas de vidrio óptico de alta densidad y cuerpo textil articulado",
+          "Sesiones personalizadas de revisión con Melissa en cada fase"
+        ]
+      },
+      "image": "/assets/baby3_process.jpg",
+      "imageAlt": "Atelier assembly workbench with weighted newborn parts"
+    }
+  ],
+  "accessories": [
+    {
+      "order": 1,
+      "slug": "heirloom-bonnet-french-lace",
+      "title": { "en": "Heirloom Bonnet & Antique French Lace Set", "es": "Capota Patrimonial y Cuello de Encaje Francés" },
+      "category": "bonnets",
+      "categoryLabel": { "en": "Heirloom Bonnets", "es": "Capotas Patrimoniales" },
+      "description": {
+        "en": "Classical infant bonnet crafted with hand-dyed cotton batiste and authentic antique French lace, designed to frame hyperrealistic facial contouring without abrading micro-rooted temporal hair.",
+        "es": "Capota clásica para bebé confeccionada con batista de algodón teñida a mano y auténtico encaje francés antiguo, diseñada para enmarcar el rostro sin fricción sobre el cabello micro-enraizado."
+      },
+      "materials": {
+        "en": "100% Cotton Batiste, Antique French Val Lace, Pure Silk Ties",
+        "es": "100% Batista de Algodón, Encaje Val Francés Antiguo, Cintas de Seda Pura"
+      },
+      "craftsmanshipNotes": {
+        "en": "Every seam is micro-finished by hand with hidden interior stitches so no rough edges contact the vinyl or silicone varnish.",
+        "es": "Cada costura está rematada a mano con puntadas interiores ocultas para evitar roces con el barniz protector de la escultura."
+      },
+      "compatibility": {
+        "en": "Suitable for 19–22 in (48–56 cm) baby sculptures",
+        "es": "Apto para esculturas de 48 a 56 cm"
+      },
+      "coverImage": "/assets/baby7.png",
+      "galleryImages": ["/assets/baby7.png", "/assets/baby1_portrait.jpg"],
+      "status": { "en": "Atelier Archive", "es": "Archivo del Atelier" },
+      "badge": { "en": "Heritage Piece", "es": "Pieza Patrimonial" },
+      "features": {
+        "en": ["Antique French Lace", "Pure Silk Ribbon Ties", "Sculpture-Safe Lining"],
+        "es": ["Encaje Francés Antiguo", "Cintas de Seda Pura", "Forro Seguro para Esculturas"]
+      }
+    },
+    {
+      "order": 2,
+      "slug": "merino-cardigan-booties",
+      "title": { "en": "Hand-Knitted Merino Cardigan & Booties Set", "es": "Conjunto de Cárdigan y Patucos en Lana Merino" },
+      "category": "knitwear",
+      "categoryLabel": { "en": "Knitwear & Sets", "es": "Tejidos de Autor" },
+      "description": {
+        "en": "Delicate pastel cardigan hand-knitted from extra-fine spun merino wool with seamless raglan sleeves and natural carved river shell buttons.",
+        "es": "Cárdigan en tono pastel tejido a mano en lana merino extrafina con mangas raglán sin costuras y botones de concha de nácar natural."
+      },
+      "materials": {
+        "en": "100% Extra-Fine Merino Wool, Natural Mother-of-Pearl Buttons",
+        "es": "100% Lana Merino Extrafina, Botones Naturales de Nácar"
+      },
+      "craftsmanshipNotes": {
+        "en": "Knitted with ultra-fine gauge needles to produce realistic infant proportions. Naturally breathable, lint-free yarn prevents fiber transfer to rooted mohair.",
+        "es": "Tejido con agujas de calibre ultra fino para reproducir proporciones infantiles verosímiles. Hilado libre de pelusa para proteger el mohair."
+      },
+      "compatibility": {
+        "en": "Newborn to 3-month proportions (0–3M)",
+        "es": "Proporciones de recién nacido a 3 meses (0–3M)"
+      },
+      "coverImage": "/assets/baby4_clean.png",
+      "galleryImages": ["/assets/baby4_clean.png", "/assets/baby2.jpg"],
+      "status": { "en": "Bespoke Order", "es": "Encargo Exclusivo" },
+      "badge": { "en": "Hand-Knitted", "es": "Tejido a Mano" },
+      "features": {
+        "en": ["Zero-Abrasion Yarn", "Seamless Raglan Finish", "River Shell Buttons"],
+        "es": ["Hilado Cero Abrasión", "Acabado Raglán sin Costuras", "Botones de Nácar"]
+      }
+    },
+    {
+      "order": 3,
+      "slug": "artisan-newsboy-linen-ensemble",
+      "title": { "en": "Tailored Linen Newsboy Cap & Heirloom Ensemble", "es": "Conjunto Sastre en Lino y Boina Tradicional" },
+      "category": "tailoring",
+      "categoryLabel": { "en": "Tailored Apparel", "es": "Sastrería Infantil" },
+      "description": {
+        "en": "Archival gentleman styling featuring a custom-fitted unbleached linen newsboy cap, collared linen bib shirt, and tailored micro-bowtie with invisible closure.",
+        "es": "Estilismo clásico compuesto por boina tradicional en lino natural, camisa de cuello sastre y corbatín miniatura con cierre invisible."
+      },
+      "materials": {
+        "en": "100% Washed European Flax Linen, Hand-Sewn Cotton Lining",
+        "es": "100% Lino Europeo Lavado, Forro Interior en Algodón Pardo"
+      },
+      "craftsmanshipNotes": {
+        "en": "Created in collaboration with historical textile restorers. Elastication is encased in soft double-layer cotton to protect rooted hairlines.",
+        "es": "Diseñado para proteger la línea del cabello con elásticos envueltos en doble capa de algodón suave."
+      },
+      "compatibility": {
+        "en": "Infant 3-Month proportions (e.g. Julien / Joseph sculpts)",
+        "es": "Proporciones de 3 meses (modelos tipo Julien / Joseph)"
+      },
+      "coverImage": "/assets/baby1_portrait.jpg",
+      "galleryImages": ["/assets/baby1_portrait.jpg", "/assets/baby1.jpg"],
+      "status": { "en": "Atelier Archive", "es": "Archivo del Atelier" },
+      "badge": { "en": "Tailored Linen", "es": "Lino Sastre" },
+      "features": {
+        "en": ["European Washed Flax", "Gentle Hairline Crown", "Miniature Tailored Bowtie"],
+        "es": ["Lino Europeo Lavado", "Ajuste Suave para Cabello", "Corbatín Sastre"]
+      }
+    },
+    {
+      "order": 4,
+      "slug": "magnetic-pacifiers-macrame-clips",
+      "title": { "en": "Calibrated Magnetic Pacifiers & Keepsake Clips", "es": "Chupetes Magnéticos Calibrados y Sujeta-Chupetes" },
+      "category": "magnetic",
+      "categoryLabel": { "en": "Magnetic Accessories", "es": "Accesorios Magnéticos" },
+      "description": {
+        "en": "Specially engineered magnetic pacifiers with rare-earth neodymium magnets sealed behind protective medical felt pads, paired with untreated beechwood beads and hand-knotted macramé clips.",
+        "es": "Chupetes magnéticos con imanes de neodimio sellados tras una almohadilla de fieltro protector, acompañados de cuentas de haya sin tratar y cordón macramé artesanal."
+      },
+      "materials": {
+        "en": "Neodymium N52 Magnet, Natural Felt Cushion, Untreated Beechwood, Cotton Macramé",
+        "es": "Imán de Neodimio N52, Almohadilla de Fieltro, Madera de Haya Natural, Algodón Macramé"
+      },
+      "craftsmanshipNotes": {
+        "en": "Calibrated polarity prevents facial scratching. The soft felt barrier protects lip varnish and gloss sealant from direct metal/plastic contact.",
+        "es": "Polaridad calibrada con barrera de fieltro acolchada para resguardar el barniz de los labios y el brillo protector de la escultura."
+      },
+      "compatibility": {
+        "en": "Compatible with internal magnet sculptures (standard polarity)",
+        "es": "Compatible con esculturas con imán interno (polaridad estándar)"
+      },
+      "coverImage": "/assets/baby5_smile.jpg",
+      "galleryImages": ["/assets/baby5_smile.jpg", "/assets/baby3.jpg"],
+      "status": { "en": "Available on Order", "es": "Disponible por Encargo" },
+      "badge": { "en": "Varnish-Safe", "es": "Seguro para Barniz" },
+      "features": {
+        "en": ["Felt Protection Pad", "Neodymium N52 Core", "Untreated Beechwood Beads"],
+        "es": ["Almohadilla de Fieltro", "Núcleo Neodimio N52", "Cuentas de Haya Natural"]
+      }
+    },
+    {
+      "order": 5,
+      "slug": "heirloom-pinafore-dress",
+      "title": { "en": "Hand-Pleated Heirloom Pinafore & Bloomer Set", "es": "Pichi Clásico Plisado y Bombachos a Juego" },
+      "category": "tailoring",
+      "categoryLabel": { "en": "Tailored Apparel", "es": "Sastrería Infantil" },
+      "description": {
+        "en": "Vintage-inspired pinafore set featuring micro-pintuck yoke detailing, soft ruffled shoulder wings, and matching bloomers in warm unbleached cotton.",
+        "es": "Conjunto de pichi de inspiración vintage con pechera de lorzas milimétricas, volantes en los hombros y bombachos a juego en algodón color crudo."
+      },
+      "materials": {
+        "en": "Organic Crinkle Cotton Muslin, Antique Ceramic Buttons",
+        "es": "Muselina de Algodón Orgánico, Botones Cerámicos Antiguos"
+      },
+      "craftsmanshipNotes": {
+        "en": "Soft-washed twice before cutting to guarantee zero stiffness. Non-staining botanical dye bath tested against silicone and vinyl samples.",
+        "es": "Lavado antes del corte para asegurar suavidad absoluta. Teñido botánico no transferible testado contra vinilo y silicona."
+      },
+      "compatibility": {
+        "en": "Toddler proportions 22–24 in (Clara / toddler sculpts)",
+        "es": "Proporciones toddler 55–60 cm (tipo Clara / modelos mayores)"
+      },
+      "coverImage": "/assets/baby5.jpg",
+      "galleryImages": ["/assets/baby5.jpg", "/assets/baby5_smile.jpg"],
+      "status": { "en": "Atelier Archive", "es": "Archivo del Atelier" },
+      "badge": { "en": "Organic Cotton", "es": "Algodón Orgánico" },
+      "features": {
+        "en": ["Colorfast Botanical Dye", "Soft Non-Chafing Bands", "Antique Ceramic Buttons"],
+        "es": ["Tinte Botánico Inalterable", "Elásticos Suaves", "Botones Cerámicos"]
+      }
+    },
+    {
+      "order": 6,
+      "slug": "tactile-booties-bonnet-ensemble",
+      "title": { "en": "Plantar-Fit Knitted Booties & Ribbed Beanie", "es": "Patucos Anatómicos y Gorro Acanalado a Juego" },
+      "category": "knitwear",
+      "categoryLabel": { "en": "Knitwear & Sets", "es": "Tejidos de Autor" },
+      "description": {
+        "en": "Form-fitted knitted infant booties designed to contour accurately around newborn soles without flattening plantar crease sculpting.",
+        "es": "Patucos anatómicos diseñados para adaptarse a la curvatura de la planta del pie del recién nacido sin aplastar los pliegues de la escultura."
+      },
+      "materials": {
+        "en": "70% Fine Merino, 30% Mulberry Silk Blend",
+        "es": "70% Merino Fino, 30% Mezcla de Seda Mulberry"
+      },
+      "craftsmanshipNotes": {
+        "en": "Seamless heel turn ensures an exact glove-like fit around weighted vinyl feet.",
+        "es": "Talón sin costuras que garantiza un calce exacto sobre los pies pesados de vinilo."
+      },
+      "compatibility": {
+        "en": "Preemie & Newborn infant sizes (17–20 in)",
+        "es": "Tallas prematuro y recién nacido (43–50 cm)"
+      },
+      "coverImage": "/assets/baby2_feet.jpg",
+      "galleryImages": ["/assets/baby2_feet.jpg", "/assets/baby2.jpg"],
+      "status": { "en": "Available on Order", "es": "Disponible por Encargo" },
+      "badge": { "en": "Merino & Silk", "es": "Merino & Seda" },
+      "features": {
+        "en": ["Anatomical Sole Fit", "Silk-Merino Blend", "Gentle Ribbon Ties"],
+        "es": ["Calce Anatómico de Planta", "Mezcla Merino y Seda", "Cintas de Ajuste Suave"]
+      }
+    }
+  ],
+  "atelierSteps": [
+    {
+      "stepNumber": "01",
+      "order": 1,
+      "title": { "en": "The Medium & Anatomy", "es": "El Medio y la Anatomía" },
+      "subtitle": { "en": "Raw German Vinyl & Transitional Platinum Silicones", "es": "Vinilo Alemán Virgen y Siliconas de Platino en Transición" },
+      "description": {
+        "en": "Every creation begins with high-grade European vinyl blanks sculpted by renowned sculptors, alongside initial experiments in platinum cure silicone. Each blank is cleaned, neutralized, and inspected for skin porosity and anatomical proportions.",
+        "es": "Cada creación inicia con vinilos europeos de primera calidad esculpidos por reconocidos escultores, junto con experimentos iniciales en silicona de platino. Cada pieza es limpiada, neutralizada e inspeccionada en su porosidad y proporciones."
+      },
+      "technicalDetails": {
+        "en": [
+          "Phthalate-free European soft vinyl matrix",
+          "Neutralizing alcohol wash and surface degreasing",
+          "Anatomical inspection of creases, ears, and joint sockets",
+          "Preparation for heat-cured mineral pigmentation"
+        ],
+        "es": [
+          "Matriz de vinilo blando europeo libre de ftalatos",
+          "Lavado desengrasante y neutralización con alcohol",
+          "Inspección anatómica de pliegues, orejas y cuencas",
+          "Preparación para pigmentación mineral curada al calor"
+        ]
+      },
+      "image": "/assets/baby8.png",
+      "imageAlt": "Raw painted vinyl head and limbs before assembly"
+    },
+    {
+      "stepNumber": "02",
+      "order": 2,
+      "title": { "en": "The Translucent Skin", "es": "La Piel Translúcida" },
+      "subtitle": { "en": "25+ Heat-Cured Oil Washes & Subdermal Mottling", "es": "25+ Veladuras al Óleo Curadas al Horno y Veteado Subdérmico" },
+      "description": {
+        "en": "Human skin is not a solid color—it is an optical matrix of translucent depths. Melissa builds tone through over twenty-five micro-washes of Genesis artist oils. Blue veins, capillary undertones, warm blushing, and cellular mottling are baked sequentially at 130°C.",
+        "es": "La piel humana no es un color plano, sino una matriz óptica de profundidades translúcidas. Melissa construye el tono mediante más de veinticinco microveladuras al óleo Genesis. Venas azules, tonos capilares, rubor y veteado celular se hornean a 130°C."
+      },
+      "technicalDetails": {
+        "en": [
+          "Subdermal blue and violet venous mapping",
+          "Multiple micro-mottling layers using custom sea sponges",
+          "Capillary flushing around temples, bridge, and knuckles",
+          "Matte varnish sealing to prevent shine and ensure velvety touch"
+        ],
+        "es": [
+          "Mapeo venoso subepidérmico en tonos azules y violetas",
+          "Múltiples capas de veteado con esponjas marinas naturales",
+          "Rubor capilar en sienes, puente nasal y nudillos",
+          "Sellado con barniz mate para evitar brillos y dar tacto aterciopelado"
+        ]
+      },
+      "image": "/assets/baby8_head.jpg",
+      "imageAlt": "Micro-veining and mottling detail on vinyl cranium"
+    },
+    {
+      "stepNumber": "03",
+      "order": 3,
+      "title": { "en": "The Depth of the Gaze", "es": "La Profundidad de la Mirada" },
+      "subtitle": { "en": "Hand-Blown German Crystal Paperweight Eyes", "es": "Ojos de Cristal Alemán Soplado a Mano" },
+      "description": {
+        "en": "Eyes are the emotional threshold of the sculpture. Melissa uses hand-blown German paperweight crystal glass eyes, crafted with multi-depth irises and realistic sclera veining. Sockets are sculpted and heated to achieve natural eyelid curvature.",
+        "es": "La mirada es el umbral emocional de la escultura. Melissa utiliza ojos alemanes de cristal soplado a mano, elaborados con iris de múltiples profundidades y esclerótica venosa. Las cuencas se calientan y adaptan para una curvatura natural del párpado."
+      },
+      "technicalDetails": {
+        "en": [
+          "German Lauscha mouth-blown crystal glass",
+          "Accurate newborn pupil dilation and corneal dome curvature",
+          "Precise directional gaze alignment for gentle human connection",
+          "Moist tear-duct and rim gloss using archival crystal glaze"
+        ],
+        "es": [
+          "Cristal de Lauscha alemán soplado a boca",
+          "Dilatación pupilar y curvatura corneal realista de recién nacido",
+          "Alineación direccional precisa para una conexión visual natural",
+          "Brillo de conducto lagrimal y párpados con esmalte cristalino de archivo"
+        ]
+      },
+      "image": "/assets/baby6.png",
+      "imageAlt": "Macro profile of baby with hazel-green glass eyes"
+    },
+    {
+      "stepNumber": "04",
+      "order": 4,
+      "title": { "en": "Micro-Rooting", "es": "Micro-Enraizado" },
+      "subtitle": { "en": "Single-Strand Premium Angora Mohair Implantation", "es": "Implantación Hebra por Hebra de Mohair de Angora" },
+      "description": {
+        "en": "The hair is implanted follicle by follicle using 42-gauge ultra-fine felting needles. Melissa studies natural infant whorls—the soft spiral at the crown, the delicate peach fuzz along the temples, and gentle feathering on the brows. It requires 40 to 80 hours per sculpture.",
+        "es": "El cabello se implanta folículo por folículo con agujas ultrafinas de 42 gauges. Melissa recrea los remolinos naturales del recién nacido: la espiral en la coronilla, el vello suave en las sienes y cejas sutiles. Requiere entre 40 y 80 horas por escultura."
+      },
+      "technicalDetails": {
+        "en": [
+          "Ethically sourced yearling South African Angora mohair",
+          "Directional root insertion simulating natural scalp growth angles",
+          "Waterproof internal vinyl sealant allowing gentle styling and washing",
+          "Micro-rooted eyelashes and micro-painted brows"
+        ],
+        "es": [
+          "Mohair de Angora sudafricano de primera esquila",
+          "Inserción direccional que simula el ángulo de crecimiento natural",
+          "Sellado interno impermeable que permite peinar y cuidar la pieza",
+          "Pestañas microenraizadas y cejas micropintadas a mano"
+        ]
+      },
+      "image": "/assets/baby3_macro.jpg",
+      "imageAlt": "Micro-rooted lashes and hair whorl"
+    },
+    {
+      "stepNumber": "05",
+      "order": 5,
+      "title": { "en": "Tactile Weight & Gravitas", "es": "Peso Táctil y Gravitacional" },
+      "subtitle": { "en": "Glass Micro-Beads & Floppy Newborn Posture", "es": "Microesferas de Vidrio y Postura Natural de Recién Nacido" },
+      "description": {
+        "en": "Hyperrealism is not merely visual—it is deeply tactile. Inside the soft flannel body, Melissa distributes fine round glass micro-beads and virgin polyfill to replicate authentic infant mass. The head is intentionally weighted to require cradling, exactly like a living infant.",
+        "es": "El hiperrealismo no es solo visual, es profundamente táctil. Dentro del cuerpo textil, Melissa distribuye microesferas de vidrio y relleno virgen para replicar la masa real. La cabeza tiene peso natural, exigiendo sostén tal como un bebé vivo."
+      },
+      "technicalDetails": {
+        "en": [
+          "Graduated weight calibration (typically 2.4 to 3.8 kg)",
+          "Fine round optical glass beads sealed in leak-proof inner pouches",
+          "Flexible tension-calibrated neck joint for natural head droop",
+          "Soft suede or cotton body casing with natural articulation"
+        ],
+        "es": [
+          "Calibración de peso gradual (típicamente de 2.4 a 3.8 kg)",
+          "Microesferas de vidrio óptico selladas en saquitos estancos",
+          "Articulación de cuello calibrada para caída natural de cabeza",
+          "Cuerpo textil de franela o gamuza con articulación suave"
+        ]
+      },
+      "image": "/assets/baby3_process.jpg",
+      "imageAlt": "Atelier workbench with weighted body assembly"
+    },
+    {
+      "stepNumber": "06",
+      "order": 6,
+      "title": { "en": "Finishing & Provenance", "es": "Acabado y Procedencia" },
+      "subtitle": { "en": "Micro-Nails, Hydration Glaze & Registered Certificate", "es": "Micro-Uñas, Esmaltado de Hidratación y Certificado Registrado" },
+      "description": {
+        "en": "The final stage refines the sensory micro-cues: subtle saliva sheen on the inner lips, wetness in the nostrils, tipped nails with natural half-moons, and heirloom apparel. Each piece is issued with a signed Baby Maker Petit Certificate of Authenticity.",
+        "es": "La fase final refina los micro-estímulos sensoriales: brillo sutil en labios, hidratación en fosas nasales, uñas con lúnulas naturales y vestimenta de colección. Cada obra se entrega con el Certificado de Autenticidad firmado por Melissa."
+      },
+      "technicalDetails": {
+        "en": [
+          "Micro-lunate nail tipping on fingers and toes with satin varnish",
+          "Hydration sheen applied to lips, inner eyelids, and nostrils",
+          "Individual photo documentation and catalog registration",
+          "Official signed & stamped Baby Maker Petit Certificate of Authenticity"
+        ],
+        "es": [
+          "Micro-lúnulas en uñas de manos y pies con barniz satinado",
+          "Brillo de hidratación aplicado a labios y fosas nasales",
+          "Documentación fotográfica y registro en catálogo oficial",
+          "Certificado de Autenticidad oficial sellado y firmado por Melissa"
+        ]
+      },
+      "image": "/assets/baby1_certificate.jpg",
+      "imageAlt": "Baby Maker Petit Certificate of Authenticity signed by Melissa Rendon"
+    }
+  ],
+  "world": [
+    {
+      "order": 1,
+      "idKey": "silicone-sculpture",
+      "title": { "en": "Original Silicone Sculpture", "es": "Escultura Original en Silicona" },
+      "tagline": { "en": "From Blank Transformation to Original Form", "es": "De la Transformación a la Escultura Original" },
+      "description": {
+        "en": "The core horizon of Melissa’s atelier is the transition toward sculpting original clay forms, creating matrix molds, and casting in platinum-cure silicone. This shift establishes total creative authorship from raw mass to living skin.",
+        "es": "El horizonte principal del taller de Melissa es la transición hacia el modelado de formas originales en arcilla, creación de moldes de matriz y vaciado en silicona de platino. Esta evolución consolida la autoría artística total desde la masa virgen."
+      },
+      "focusAreas": {
+        "en": [
+          "Fine-art oil clay modeling and proportional anatomy",
+          "Multi-part fiberglass and silicone mold fabrication",
+          "Platinum-cure silicone formulation with realistic skin compliance",
+          "Seamless armature integration for flexible movement"
+        ],
+        "es": [
+          "Modelado en plastilina profesional y proporciones anatómicas",
+          "Fabricación de moldes de fibra de vidrio y silicona",
+          "Formulación de silicona de platino con flexibilidad idéntica a la piel",
+          "Integración de armaduras internas para movimiento flexible"
+        ]
+      },
+      "artisticConcept": {
+        "en": "Original sculpture removes all commercial template constraints. Every curve, cheek bone, and eyelid will emerge directly from Melissa’s artistic intent.",
+        "es": "La escultura original elimina cualquier límite comercial preexistente. Cada curva, pómulo y párpado surgirá directamente de la intención artística de Melissa."
+      }
+    },
+    {
+      "order": 2,
+      "idKey": "fantasy-mythos",
+      "title": { "en": "Fantasy & Mythic Characters", "es": "Personajes Fantásticos y Míticos" },
+      "tagline": { "en": "Hyperrealism Meeting the Ethereal", "es": "El Hiperrealismo al Encuentro de lo Etéreo" },
+      "description": {
+        "en": "Exploring the intersection where rigorous anatomical hyperrealism merges with mythical archetypes: celestial infants, woodland fae, and porcelain chimera. The goal is not cartoonish caricature, but grounding fantasy in profound biological believability.",
+        "es": "Explorando el cruce donde el hiperrealismo anatómico se une con arquetipos míticos: infantes celestiales, criaturas del bosque y quimeras de porcelana. El objetivo no es la caricatura, sino fundar la fantasía en una verosimilitud biológica absoluta."
+      },
+      "focusAreas": {
+        "en": [
+          "Biological grounding of mythical cranial features and pointed ear anatomy",
+          "Ethereal pigment palettes: opalescent mottling, faint luminescent undertones",
+          "Unique natural fiber rooting using alpaca, silk, and silver-cast mohair",
+          "Heirloom botanical and mineral accessories"
+        ],
+        "es": [
+          "Fundamento biológico en rasgos craneales y orejas élficas sutiles",
+          "Paletas de pigmento etéreas: veteado opalescente y matices luminiscentes",
+          "Enraizado con fibras nobles como alpaca, seda y mohair plateado",
+          "Accesorios botánicos y minerales de archivo"
+        ]
+      },
+      "artisticConcept": {
+        "en": "What happens when a mythological creature is rendered with the exact tactile skin translucency and weight of a real infant? The boundary of wonder dissolves.",
+        "es": "¿Qué ocurre cuando una criatura mitológica es materializada con la translucidez de piel y el peso exacto de un bebé real? La frontera del asombro desaparece."
+      }
+    },
+    {
+      "order": 3,
+      "idKey": "tactile-interaction",
+      "title": { "en": "Interactive Presence & Animatronics", "es": "Presencia Interactiva y Animatrónica" },
+      "tagline": { "en": "Breath, Warmth, and Subtle Somatic Pulse", "es": "Respiración, Calidez y Pulso Somático Sutil" },
+      "description": {
+        "en": "Investigating silent micro-mechanisms and thermal systems that introduce subtle biological resonance: gentle chest movement emulating slow respiratory rhythm, internal warmth, and rhythmic tactile pulses that respond to embrace.",
+        "es": "Investigación de micro-mecanismos silenciosos y sistemas térmicos que introducen resonancia biológica sutil: movimiento torácico de respiración pausada, calidez interna y pulsos táctiles al ser abrazados."
+      },
+      "focusAreas": {
+        "en": [
+          "Silent micro-pneumatic respiratory actuators",
+          "Gentle thermal core balancing (natural human body warmth 36°C)",
+          "Haptic heartbeat simulation calibrated to resting infant pulse",
+          "Capacitive touch-sensing embedded beneath silicone skin"
+        ],
+        "es": [
+          "Actuadores micro-neumáticos silenciosos de respiración",
+          "Calentamiento térmico sutil (temperatura corporal humana de 36°C)",
+          "Simulación háptica de latidos calibrada a pulso infantil en reposo",
+          "Sensores táctiles capacitivos integrados bajo la silicona"
+        ]
+      },
+      "artisticConcept": {
+        "en": "Bridging the uncanny valley not through digital screens, but through physical, somatic reality that touches the human nervous system.",
+        "es": "Superar el valle inquietante no mediante pantallas, sino a través de una presencia física y somática que conmueve el sistema nervioso."
+      }
+    },
+    {
+      "order": 4,
+      "idKey": "synthetic-emotion",
+      "title": { "en": "Artificial Intelligence & Synthetic Emotion", "es": "Inteligencia Artificial y Emoción Sintética" },
+      "tagline": { "en": "Ambient Companionship & Evocative Intelligence", "es": "Acompañamiento Ambiental e Inteligencia Evocadora" },
+      "description": {
+        "en": "The long-term artistic exploration of ambient artificial intelligence as emotional presence: subtle vocalizations, adaptive responsiveness, and contextual awareness that honors the intimate vulnerability of the artwork.",
+        "es": "La exploración artística a largo plazo de la inteligencia artificial ambiental como presencia emocional: vocalizaciones tenues, respuesta adaptativa y consciencia de contexto que honra la intimidad de la obra."
+      },
+      "focusAreas": {
+        "en": [
+          "Ambient sensory processing (light, acoustic environment, orientation)",
+          "Natural micro-vocal acoustic synthesis (soft sighs, gentle infant sounds)",
+          "Adaptive emotional presence without overt technology displays",
+          "Ethical contemplation of synthetic human attachment and comfort"
+        ],
+        "es": [
+          "Procesamiento sensorial ambiental (luz, entorno sonoro, orientación)",
+          "Síntesis acústica de micro-vocalizaciones naturales (suspiros tenues)",
+          "Presencia emocional adaptativa sin interfaces tecnológicas visibles",
+          "Contemplación ética del apego y confort humano sintético"
+        ]
+      },
+      "artisticConcept": {
+        "en": "Technology must remain entirely invisible. The object must feel sacred, warm, and alive—never robotic.",
+        "es": "La tecnología debe permanecer completamente invisible. El objeto debe sentirse sagrado, cálido y vivo, jamás robótico."
+      }
+    }
+  ]
+}
